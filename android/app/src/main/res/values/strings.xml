@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CookingApp</string>
+    <string name="title_activity_main">CookingApp</string>
+    <string name="package_name">com.cooking.app</string>
+    <string name="custom_url_scheme">com.cooking.app</string>
+</resources>

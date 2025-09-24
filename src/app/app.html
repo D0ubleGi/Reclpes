@@ -1,0 +1,471 @@
+<div class="bg-animation">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div id="stars4"></div>
+  </div>
+
+<div #register id="register">
+<p id="registeri">Register</p>
+<div id="sainpute">
+<input  type="text" id="user" class="input" maxlength="20" [(ngModel)]="useri" placeholder="Enter your username...">
+<p #validation1 id="validation1" class="validation"></p>
+<input type="email" id="email" class="input" [(ngModel)]="emaili" placeholder="Enter your email...">
+<p #validation2 id="validation2" class="validation"></p>
+<div id="msee1">
+<input #passwordu type="password" id="password" class="input" [(ngModel)]="passwordi" placeholder="Enter your password...">
+<button id="button3" (click)="msee1()"></button>
+</div>
+<p #validation3 id="validation3" class="validation"></p>
+<div id="msee2">
+<input #passwordo type="password" id="repassword" class="input" [(ngModel)]="repasswordi" placeholder="Repeat your password...">
+<button id="button4" (click)="msee2()"></button>
+</div>
+<p #validation4 id="validation4" class="validation"></p>
+<p id="alreadyhave">Already have an account? <button id="button1" (click)="signo()" class="button">Sign in</button></p>
+<div id="sabuto">
+<button #button2 id="button2" class="button" (click)="registeri()">Submit</button>
+</div>
+</div>
+<div #checkcode id="checkcode">
+    <div id="checks">
+    <div id="sacheke">Email verification</div>
+    <button id="button15" (click)="cli()"></button>
+</div>
+    <input [(ngModel)]="kodi"
+  [formControl]="numberControl"
+  placeholder="Enter code..."
+  (keypress)="allowOnlyNumbers($event)"
+id="codi" class="input">
+<p #validation8 id="validation8" class="validation"></p>
+<p id="again">Code was sent on your email.<button id="button12" (click)="sendag()">Send again</button></p>
+<div id="gabui">
+    <button id="button10" class="button" (click)="checke()">Submit</button>
+</div>
+</div>
+</div>
+
+
+
+<!-- sign in --------------------------------------------------- -->
+
+
+
+<div #signin id="signin">
+    <p id="dasaindi">Sign in</p>
+    <div id="sainputeebi">
+        <input type="email" id="useremail" class="input" [(ngModel)]="useremail" placeholder="Enter your username or password...">
+        <p #validation5 id="validation5" class="validation"></p>
+        <div id="msee">
+        <input #passka type="password" id="userpass" class="input" [(ngModel)]="userpass" placeholder="Enter your password...">
+        <button id="button5" (click)="msee()"></button>
+        </div>
+        <p #validation6 id="validation6" class="validation"></p>
+        <p id="forgot">Forgot password? <button id="button7" class="buton"  (click)="resti()">Restore</button></p>
+        <p id="signup">Already have an account? <button id="button6" class="buton" (click)="signi()">Sign up</button></p>
+        <div id="sabito">
+<button #button8 id="button8" class="button" (click)="signinn()">Sign in</button>
+</div>
+    </div>
+    <div #restore id="restore">
+        <div id="ceksso">
+    <p id="restori">Restore</p>
+    <button id="button14" (click)="clo()"></button>
+</div>
+    <input type="email" id="restemail" class="input" [(ngModel)]="restemaili" placeholder="Enter your email...">
+    <p #validation7 id="validation7" class="validation"></p>
+    <div id="sabu">
+        <button id="button9" class="button" (click)="daareste()">Restore</button>
+    </div>
+</div>
+</div>
+
+
+
+<!-- Lists --------------------------------------------------- -->
+
+
+
+<div #List id="list">
+    <p id="salis">Lists</p>
+    <div #saliste id="saliste">
+
+    </div>
+    <div id="butiks">
+        <button #button17 id="button17" class="kbk" (click)="butto()">❌ Remove list</button>
+        <button #button16 id="button16" class="button" (click)="gi()">Add</button>
+    </div>
+    <div #yessn id="yessn">
+        <p id="dkmm">Delete</p>
+        <p #M id="M"></p>
+        <div id="S">
+            <button #button89 id="button89" class="O" (click)="wsh()">✅</button>
+            <button #button90 id="button90" class="O" (click)="arwsh()">❌</button>
+        </div>
+    </div>
+</div>
+
+
+<!---registerid-------------------------------------------------------------->
+
+<div #Addid id="addid">
+<p id="adidi">Add list</p>
+<input type="text" id="listidi" [(ngModel)]="listid" class="input" placeholder="Enter list id...">
+<p #validation9 id="validation9" class="validation"></p>
+<p #crateone id="crateone">Dont have Id?<button id="button20" (click)="rego()">Create one</button></p>
+<div id="chs">
+    <button id="button18" class="button" (click)="gb()"><</button>
+    <button #button19 id="button19" class="button" (click)="addid()">Add</button>
+</div>
+</div>
+
+
+<!---Crateid------------------------------------------------------>
+
+
+
+<div #idcrate id="idcrate">
+<div id="crateidd">Create Id</div>
+<p id="maxuser" class="p">Max users:</p>
+<input type="text" inputmode="numeric" maxlength="9" placeholder="Enter max number of users..." title="Enter number!" required
+       class="input" id="maxuss" [(ngModel)]="maxx" (keydown)="allowOnlyNumberss($event)">
+<p #validation10 id="validation10" class="validation"></p>
+<p id="namm">Id name:</p>
+<input type="text" class="input" id="idname" [(ngModel)]="nami" placeholder="Enter Id name..." title="Enter id name!" required>
+<p #validation11 id="validation11" class="validation"></p>
+<p id="genid" class="p">Generate your Id:</p>
+<div id="exdiv">
+<div #indiv class="input" id="indiv"></div>
+<button id="button23" (click)="generate()" class="button">Generate</button>
+</div>
+<p #validation12 id="validation12" class="validation"></p>
+<p id="haveone">Register existing Id <button id="button22" (click)="here()" class="button">here</button></p>
+<button #button21 id="button21" (click)="check()" class="button">Check</button>
+<p #validation13 id="validation13" class="validation" ></p>
+</div>
+
+
+
+
+
+
+
+<!---------------------------------------------------------------->
+
+
+<div #sort id="sort">
+    <div #saide id="saide">
+        <div id="sabs">
+        <div id="idcont">
+        <p id="sddee">List Id <button class="kjsc" id="kkpk" (click)="clid()"></button></p>
+        <p #miade id="miade">80db3039ce934211aada19e173da1004</p>
+    </div>
+</div>
+    </div>
+    <div #saiue id="saiue">
+     <table #usss id="usss">
+  <thead>
+    <tr id="trro">
+      <th class="kklss">Author</th>
+      <th class="kklss">Total receipts
+      <button class="kjsc" id="kkmpk" (click)="clisd()">
+      </button>
+</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Author 1</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Author 2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Author 2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>Author 2</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+    <div #said id="said">
+        <button #button60 id="button60" (click)="id()">Id</button>
+        <button #button61 id="button61" (click)="stff()"><div #stf id="stf"></div>Favorites
+             <div #safave id="safave"  (click)="$event.stopPropagation()">
+                <p id="sfvc">Favorites</p>
+                <div id="safavv">
+                    <table #tablee id="tablee">
+                        <thead>
+                            <tr id="trri">
+                                <th class="kkls">Author</th>
+                                <th class="kkls">Total posts</th>
+                                <th class="kkls">Total rate <div class="kjsc" id="kkooo" (click)="cccc()"></div></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <th>Author</th>
+      <th>Total rate</th>
+      <th>Total posts</th>
+                        </tbody>
+                    </table>
+                <div id="sjh">
+                     <div #contia id="contip">
+        <div id="saiop">
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#555" viewBox="0 0 24 24">
+  <path d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+</svg>
+        <input type="text" class="input" id="inpous" [(ngModel)]="svl" placeholder="Search" (input)="onsearch(svl)" >
+    </div>
+    </div> 
+       <button #button62 id="button62" class="button" (click)="daaload()">Load all</button>
+                </div>
+                <div id="fghg">
+                    <div #dero id="dero">
+                        <div id="div1" class="divs"><div id="lolk"></div>Title</div>
+                        <div id="div2" class="divs">Attributes</div>
+                        <div id="div3" class="divs"><div id="lolkk"></div>Author</div>
+                    </div>
+                    <div #favebi id="iii"></div>
+            </div>
+             </div>
+             <div id="oooo">
+                <button #button63 id="button63" class="button" (click)="clss()"><</button>
+                <button #button64 id="button64" class="button" (click)="joj()">Info</button>
+             </div>
+            </div>
+            </button>
+            <button #button700 id="button700" class="button" (click)="ussss()">Users</button>
+    </div>
+    <button #button24 id="button24" (click)="gbk()"><</button>
+    <div #contia id="contia">
+        <div id="saio">
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#555" viewBox="0 0 24 24">
+  <path d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+</svg>
+        <input type="text" class="input" id="inpoas" [(ngModel)]="sorr" placeholder="Search" (input)="onSearch(sorr)" >
+    </div>
+    </div>
+    <select id="sortby" name="sortby" [(ngModel)]="selectedValue" (ngModelChange)="onValueSelected($event)">
+  <option value="" disabled selected hidden>Sort</option>
+  <option value="All">Latest</option>
+  <option value="time">Time</option>
+  <option value="difficulty">Difficulty</option>
+  <option value="rating">Rating</option>
+</select>
+
+<button #button25 id="button25" (click)="hap()">+</button>
+</div>
+
+
+<!-------------- mainnnnnnnnn--------------------------------->
+
+<div #recipts id="recipts">
+    <div class="haia">          
+          <div class="forim"><div class="imgi"></div></div>
+        <h3 class="title">Spaghetti Carbonara</h3>
+  <p class="deskr">Creamy Italian pasta with bacon.</p>
+  <div class="meta">
+    <div class="buu">
+    <span class="info">⏱ 25m</span>
+    <span class="info">⭐ 4.8</span>
+    <span class="info">🍴 Easy</span>
+  </div>
+</div>
+</div>
+        <div class="haia">
+        </div>
+    <div class="haia"></div>
+    <div class="haia"></div>
+    <div class="haia"></div>
+</div>
+
+
+<!-------------------filter---------------------------------->
+
+
+<div #timee id="time">
+<p #tm id="tm"></p>
+<p id="cd">Choose option:</p>
+<div id="hoder">
+<button #button26 class="chus" (click)="chus1()" id="button26"></button>
+<button #button27 class="chus" (click)="chus2()" id="button27"></button>
+</div>
+</div>
+
+
+
+<!---------addrec------------------------------------------------>
+
+
+
+<div #addrecipt id="addrecipt">
+<p id="rec">New receipt</p>
+<p class="cj">Title</p>
+<input type="text" id="tituli" class="input" maxlength="40" [(ngModel)]="tituli" placeholder="Enter title..">
+<p #validation16 id="validation16" class="validation"></p>
+<p class="cj">Subtitle</p>
+<input type="text" id="subtituli" class="input" maxlength="100" [(ngModel)]="subtituli" placeholder="Enter subtitle..">
+<p #validation17 id="validation17" class="validation"></p>
+<p class="cj">Details</p>
+<div id="optis">
+    <input type="number" id="numi" class="input" [(ngModel)]="timia" (keydown)="allowOnlyNumberss($event)" placeholder="Cooking time...">
+    <select id="timi" name="sort" [(ngModel)]="archv" class="input" >
+  <option value="" disabled selected hidden>Select time unit</option>
+  <option value="Hour">Hour</option>
+  <option value="Minute">Minute</option>
+  <option value="Second">Second</option>
+</select>
+ <select id="timi" name="sort" [(ngModel)]="diff" class="input" >
+  <option value="" disabled selected hidden>Select difficulty</option>
+  <option value="Easy">Easy</option>
+  <option value="Medium">Medium</option>
+  <option value="Hard">Hard</option>
+</select>
+</div>
+<p #validation18 id="validation18" class="validation"></p>
+<p class="cj">Image</p>
+<input #imi type="file" id="image" class="input" name="image" accept="image/*" [(ngModel)]="imgs" (change)="onFileSelected($event)">
+<p #validation15 id="validation15" class="validation"></p>
+<div id="butsa">
+    <button #button28 id="button28" class="button" (click)="gbv()"><</button>
+    <button #button29 id="button29" class="button" (click)="submit()">Submit</button>
+</div>
+</div>
+
+
+
+<!-----------------------description--------------->
+
+
+<div #description id="description">
+<p id="df">Description</p>
+<div id="tools">
+    <div id="satule">
+<input #font type="number" id="button35" class="button" (input)="fonti()" (keydown)="allowOnlyNumberss($event)" [(ngModel)]="fontsize" placeholder="Font-size">
+ <select id="button33" name="call" (change)="kaligraf($event)" [(ngModel)]="calli" class="input" >
+  <option value="" disabled selected hidden>Font</option>
+    <option value="" disabled selected hidden>Font</option>
+<option value="Arial">Arial</option>
+<option value="'Times New Roman', Times, serif">Times New Roman</option>
+<option value="'Courier New', Courier, monospace">Courier New</option>
+<option value="Calibri">Calibri</option>
+<option value="monospace">Monospace (generic)</option>
+<option value="cursive">Cursive (generic)</option>
+<option value="fantasy">Fantasy (generic)</option>
+<option value="serif">Serif (generic)</option>
+<option value="sans-serif">Sans-serif (generic)</option>
+</select>
+ <select id="button34"    (mousedown)="onDropdownTouchStart()" (touchstart)="onDropdownTouchStart()" name="Color" (change)="coloro($event)" [(ngModel)]="colori" class="input" >
+  <option value="" disabled selected hidden>Color</option>
+  <option value="black">black</option> 
+  <option value="red">red</option>
+  <option value="blue">blue</option>
+  <option value="white">white</option>
+  <option value="purple">purple</option>
+  <option value="navy">navy</option>
+  <option value="grey">grey</option>
+  <option value="brown">brown</option>
+  <option value="olive">olive</option>
+</select><button #button32 id="button32" class="button" (click)="addi()">Segment</button>
+
+    </div>
+</div>
+<div #deskrip id="deskrip"  contenteditable="true"
+  contenteditable="true"
+  (keydown)="chec($event)"
+  [attr.placeholder]="'Type something...'">
+
+</div>
+<p #validation27 id="validation27" class="validation">jioewrjoiew joier jweo</p>
+<div id="byu">
+    <button #button30 id="button30" class="button" (click)="ghh()"><</button>
+    <button #button31 id="button31" class="button" (click)="submiti()">Submit</button>
+</div>
+</div>
+
+
+<!-----------------------sadeskripte----------------------------->
+
+
+<div #sadeskripte id="sadeskripte">
+    <div id="saime" #saime>
+    </div>
+<div id="iko" #iko>
+    <div #ratee id="ratee">
+        <p id="rt">Rate <button #bap class="kjsc" id="kcm" (click)="clrt()"></button></p>
+        <p #trac id="trac">Choose your rating</p>
+        <div #mkj id="mkj">
+            <button #buttoni class="de" (mouseenter)="onHover($event)"(mouseleave)="onLeave($event)"(click)="onToggle($event)" id="button50">1</button>
+            <button #buttoni class="de" (mouseenter)="onHover($event)"(mouseleave)="onLeave($event)"(click)="onToggle($event)" id="button51">2</button>
+            <button #buttoni class="de" (mouseenter)="onHover($event)"(mouseleave)="onLeave($event)"(click)="onToggle($event)" id="button52">3</button>
+            <button #buttoni class="de" (mouseenter)="onHover($event)"(mouseleave)="onLeave($event)"(click)="onToggle($event)" id="button53">4</button>
+            <button #buttoni class="de" (mouseenter)="onHover($event)"(mouseleave)="onLeave($event)"(click)="onToggle($event)" id="button54">5</button>
+        </div>  
+        <p #validation29 id="validation29" class="validation">Rating has been submitted!</p>
+        <div id="komn">
+        <button #button55 id="button55" class="button" (click)="darete()">Submit</button>
+    </div>
+    </div>
+    <div #yesno id="yesno">
+        <p id="kkm">Delete <button #bup class="kjsc" id="kom" (click)="clrts()"></button></p>
+        <p #sr id="sr">Are you sure you want to delete?</p>
+        <div #satibe class="satibe">
+        <button #button41 id="button41"  (click)="ydel()">✅</button>
+        <button #button42 id="button42" (click)="ndel()">❌</button>
+    </div>
+    <p #validation25 id="validation25" class="validation"></p>
+    </div>
+    <div id="delno" #delno>
+        <p id="iopk">Delete <button #bup class="kjsc" id="kom" (click)="clrtss()"></button></p>
+        <p #suri id="suri">ewr</p>
+        <p #want id="want">Want to ask owner to delete this post?</p>
+         <div #T class="satibe">
+        <button #button43 id="button43"  (click)="ydell()">✅</button>
+        <button #button44 id="button44" (click)="ndell()">❌</button>
+    </div>
+    <p #validation26 id="validation26" class="validation"></p>
+    </div>
+    <p #nams class="nams"></p>
+    <p #nomss class="nomss"> </p>
+    <div #ssm id="ssm">
+ 
+</div>
+    <div id="buttss">
+        <button #button37 id="button37" class="button" (click)="gbj()"><div id="imh"></div> Back</button>
+        <button #button38 id="button38" class="button" (click)="dio()"><div #imd id="imd"></div> Favorites</button>
+        <button #button39 id="button39" class="button" (click)="remv()"><div #iok id="opl"></div>Remove</button>
+        <button #button40 id="button40" class="button" (click)="cuii()"><div #mdis id="mdis"></div> Rate</button>
+    </div>
+<div id="sati">
+</div> 
+<div #dfop id="dfop">
+<p #pll id="pll">Recipe</p>
+<div #sade id="sade">   
+</div>
+</div>
+<div id="llln">
+<div #comments id="comments">
+    <div #dasakoment id="dasakoment">
+        <div id="zoli">
+        <input #comentebi type="text" name="comments" id="commentebi" class="input" [(ngModel)]="comm" placeholder="Add comment...">
+    </div>
+        <button #button75 id="button75" class="button" (click)="daakm()">Add</button>
+    </div>
+    <div #sakoment id="sakoment">
+    </div>
+    <div #edit id="edit">
+        <p id="ed">Edit <button class="kjsc" id="kcmmm" (click)="olkk()"></button></p>
+        <div #saed contenteditable="true" id="saed"></div>
+        <button #button708 id="button708" class="button" (click)="conf()">Confirm</button>
+    </div>
+
+</div>
+</div>
+</div>
+

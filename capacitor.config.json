@@ -1,0 +1,6 @@
+{
+  "appId": "com.cooking.app",
+  "appName": "CookingApp",
+  "webDir": "dist/cooking/browser",
+  "bundledWebRuntime": false
+}
