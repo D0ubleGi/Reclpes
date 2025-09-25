@@ -94,7 +94,7 @@ ${n.map((r,i)=>`${i+1}) ${r.toString()}`).join(`
       
       User ${r} deleted recipe ${o}!
       
-      `}).subscribe(a=>{console.log(a)})}):n.forEach(s=>{this.http.post("https://beckend2.onrender.com/send-email",{to:s.email,Subject:"Deleted recipe",text:`Dear ${s.useri}
+      `}).subscribe(a=>{console.log(a)})}):n.forEach(s=>{this.http.post("https://beckend2.onrender.com/send-email",{to:s.email,subject:"Deleted recipe",text:`Dear ${s.useri}
       
       User ${this.us} deleted recipe ${t}!
       
