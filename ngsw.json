@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1758786279881,
+  "timestamp": 1759153910460,
   "index": "/Reclpes/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Reclpes/favicon.ico",
         "/Reclpes/index.html",
-        "/Reclpes/main-DXLJ4ZRV.js",
+        "/Reclpes/main-LH52MBC3.js",
         "/Reclpes/manifest.webmanifest",
         "/Reclpes/polyfills-5CFQRCPP.js",
         "/Reclpes/styles-5INURTSO.css"
@@ -65,6 +65,8 @@
         "/Reclpes/assets/images/star (1).png",
         "/Reclpes/assets/images/star (2).png",
         "/Reclpes/assets/images/star.png",
+        "/Reclpes/assets/images/text (1).png",
+        "/Reclpes/assets/images/text.png",
         "/Reclpes/assets/images/trash-can.png",
         "/Reclpes/media/Screenshot (336)-46ZKAMWS.png",
         "/Reclpes/media/close (1)-3GTDFLLP.png",
@@ -120,10 +122,12 @@
     "/Reclpes/assets/images/star (1).png": "d8d91b723b9c805638aa60943862a190406af40d",
     "/Reclpes/assets/images/star (2).png": "3e843f62db99dfb6d4b5650e7fd71e7aa76366e4",
     "/Reclpes/assets/images/star.png": "fd2b4556742a4d9f3ef6861416c529a4eea6a02c",
+    "/Reclpes/assets/images/text (1).png": "bf169dd4bdef606e96f22aff5279019fbf7c459d",
+    "/Reclpes/assets/images/text.png": "abc2172c683fbe61636308f449a0e6c4f9004fb7",
     "/Reclpes/assets/images/trash-can.png": "ccdf3a79ffa4481a75a3f26585163e408f0ef38a",
     "/Reclpes/favicon.ico": "400ba9de22995eb4ee73102a0d1ef9debc55733d",
-    "/Reclpes/index.html": "2541ef15536d019885018da1fd54e1409d7283c9",
-    "/Reclpes/main-DXLJ4ZRV.js": "b06832f1991be3394a862b25fbf9e53257a040db",
+    "/Reclpes/index.html": "f1f0f6f6d89195ff1ff19be4f02f7f1065707b35",
+    "/Reclpes/main-LH52MBC3.js": "d2cf0827cf4a2079abdf64fdb3951ecad1b71b26",
     "/Reclpes/manifest.webmanifest": "6bcfae6464a81cbca16310f9106e1143d71c65f2",
     "/Reclpes/media/Screenshot (336)-46ZKAMWS.png": "02499da3044b4b49c0de89b706d8da5d30c4fba6",
     "/Reclpes/media/close (1)-3GTDFLLP.png": "fa8eaeef3619328a98cc8afc0b3f15a00bc081e0",
