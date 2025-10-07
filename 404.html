@@ -34,6 +34,7 @@ body,html {
   border: 0.0085px solid #D8AE75;
   margin-top: 1.5px;
   max-height: 40px;
+  font-size: clamp(12px, calc(12px + (15 - 12) * ((100vw - 300px) / (1520 - 300))), 15px);
 }
 .listebi:hover{
   cursor: pointer;
@@ -780,9 +781,164 @@ color: #6a4618;
    font-size: clamp(9px,  calc(9px + (12 - 9) * ((100vw - 300px) / (999 - 300))),12px);
   }
 }
+.fr2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 1.5px;
+    background-color: #E6CFA5;
+    border-radius: 12px;
+    padding: 2.3px 3px;
+}
+.imgt{
+    width:clamp(32px,  calc(32px + (40 - 32) * ((100vw - 300px) / (1520 - 300))),40px);
+    height:clamp(32px,  calc(32px + (40 - 32) * ((100vw - 300px) / (1520 - 300))),40px);
+    border-radius: 50%;
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/images/user.png');
+  border: none;
+}
+.sanm3{
+    display: flex;
+    flex-direction: column;
+    margin-left:clamp(1.5%,  calc(1.5% + (2.5 - 1.5) * ((100vw - 300px) / (1520 - 300))),2.5%);
+   
+}
+.nm2,.nm3{
+    margin: 0;
+    color: #8a612b;
+}
+.nm2{
+font-size:clamp(13.5px,  calc(13.5px + (18 - 13.5) * ((100vw - 300px) / (1520 - 300))),18px);
+font-weight: bold;
+}
+.nm3{
+
+    font-size:clamp(9.5px,  calc(9.5px + (12 - 9.5) * ((100vw - 300px) / (1520 - 300))),12px);
+}
+.sab3{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #8a612b;
+    font-size:clamp(15px,  calc(15px + (18 - 15) * ((100vw - 300px) / (1520 - 300))),18px);
+}
+.butt113{
+    width:clamp(18px,  calc(18px + (23.5 - 18) * ((100vw - 300px) / (1520 - 300))),23.5px);
+    height:clamp(18px,  calc(18px + (23.5 - 18) * ((100vw - 300px) / (1520 - 300))),23.5px);
+    background-image: url('../assets/images/chat-bubbles-with-ellipsis (1).png');
+    margin-right: 8px;
+    border: none;
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+.butt113:hover{
+  scale: 1.1;
+}
+.butt113:active{
+  scale: 0.95;
+}
+
+.nakomi {
+  display: flex;
+  flex-direction: column; 
+  background-color: rgba(230, 184, 119, 0.57);
+  width: 67%;
+  padding-left: 4px;
+  border-radius: 12px;
+  position: relative;
+  margin-bottom: 3px;
+}
+
+.nakom {
+  display: inline;          
+  word-wrap: break-word;   
+  overflow-wrap: break-word;
+  white-space: normal; 
+  word-break: break-all; 
+  font-size: clamp(12.5px, calc(12.5px + (13.5 - 12.5) * ((100vw - 300px) / (1520 - 300))), 13.5px);
+}
+.sp3 {
+  display: inline;       
+  font-size: 13.5px;
+  font-size: clamp(12.5px, calc(12.5px + (13.5 - 12.5) * ((100vw - 300px) / (1520 - 300))), 13.5px);
+}
+
+.ewe {
+  display: inline;          
+  flex-direction: unset;  
+  margin-top: 5px;
+  width: 100%;
+}
+.nakoom{
+  display: flex;
+  font-size: 13.5px;
+  flex-direction: row;
+}
+.nammk{
+  font-size: 9.5px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.Io{
+  display: none;
+  flex-direction: row;
+  position: absolute;
+  left: 2%;
+  bottom: 10%;
+}
+
+.button343{
+ background-size: cover;  font-size: clamp(12.5px, calc(12.5px + (13.5 - 12.5) * ((100vw - 300px) / (1520 - 300))), 13.5px);
+
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: clamp(12px, calc(12px + (13.5 - 12) * ((100vw - 300px) / (1520 - 300))), 13.5px);
+  width: clamp(12px, calc(12px + (13.5 - 12) * ((100vw - 300px) / (1520 - 300))), 13.5px);
+  border: none;
+  background-color: transparent;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.button343:hover{
+  scale: 1.1;
+}
+.button343:active{
+  scale: 0.95;
+}
+.button344{
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 13.5px;
+  width: 13.5px;
+  border: none;
+  background-color: transparent;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.button344:hover{
+  scale: 1.1;
+}
+.button344:active{
+  scale: 0.95;
+} 
 </style>
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-I4DXBS6F.js" type="module"></script></body>
+<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-VC4SRAFN.js" type="module"></script></body>
 </html>
