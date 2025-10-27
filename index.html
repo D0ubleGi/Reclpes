@@ -1044,8 +1044,8 @@ font-weight: bold;
   color: #8a612b;
 }
 .spp1{
-  width: 5px;
-  height: 5px;
+  width: clamp(4px, calc(4px + (5 - 4) * ((100vw - 300px) / (1500 - 300))),5px);   
+  height: clamp(4px, calc(4px + (5 - 4) * ((100vw - 300px) / (1500 - 300))),5px);   
   border-radius: 100%;
   background-color: #8a612b;
   margin-top: 6.5px;
@@ -1072,5 +1072,5 @@ font-weight: bold;
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-JOCY7AMD.js" type="module"></script></body>
+<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-NHDYW6LV.js" type="module"></script></body>
 </html>
