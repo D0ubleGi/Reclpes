@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1761585566104,
+  "timestamp": 1761598209748,
   "index": "/Reclpes/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Reclpes/favicon.ico",
         "/Reclpes/index.html",
-        "/Reclpes/main-HU4PRQ4V.js",
+        "/Reclpes/main-VJRJQEWQ.js",
         "/Reclpes/manifest.webmanifest",
         "/Reclpes/polyfills-5CFQRCPP.js",
         "/Reclpes/styles-5INURTSO.css"
@@ -53,6 +53,8 @@
         "/Reclpes/assets/images/add-user.png",
         "/Reclpes/assets/images/approved.png",
         "/Reclpes/assets/images/arrow.png",
+        "/Reclpes/assets/images/bookmark (2).png",
+        "/Reclpes/assets/images/bookmark (3).png",
         "/Reclpes/assets/images/chat-bubbles-with-ellipsis (1).png",
         "/Reclpes/assets/images/chat-bubbles-with-ellipsis.png",
         "/Reclpes/assets/images/check-mark.png",
@@ -87,6 +89,8 @@
         "/Reclpes/assets/images/text.png",
         "/Reclpes/assets/images/trash-can.png",
         "/Reclpes/assets/images/user.png",
+        "/Reclpes/media/bookmark (2)-SSP6VL5S.png",
+        "/Reclpes/media/close-button (1)-DQRBDLWM.png",
         "/Reclpes/media/cross-VBCKXK76.png",
         "/Reclpes/media/image-gallery (1)-PVNGOCFT.png",
         "/Reclpes/media/instagram (1)-M5T7SCYQ.png"
@@ -121,6 +125,8 @@
     "/Reclpes/assets/images/add-user.png": "c58b53f74bfd49136910fb0f4d2f132b5bcaa026",
     "/Reclpes/assets/images/approved.png": "095cc92b63b0ba605c18215d732fd79efb9f797d",
     "/Reclpes/assets/images/arrow.png": "7ade6729c509000e9c9ec39030c32dacae42e0bb",
+    "/Reclpes/assets/images/bookmark (2).png": "408b963e3b8e9c9fda01ed52ef21a7f55ee33a23",
+    "/Reclpes/assets/images/bookmark (3).png": "fc7a6e11baaf625f9ac2753e6257d2380f1ef2b1",
     "/Reclpes/assets/images/chat-bubbles-with-ellipsis (1).png": "c7b56728a2231ad84468eb6142a839e0a3ab7c71",
     "/Reclpes/assets/images/chat-bubbles-with-ellipsis.png": "038be422ee6d344e5b0e29ef061e2192fa1d3358",
     "/Reclpes/assets/images/check-mark.png": "694f948fcc577a194532429472eb0e1e92f71827",
@@ -156,9 +162,11 @@
     "/Reclpes/assets/images/trash-can.png": "ccdf3a79ffa4481a75a3f26585163e408f0ef38a",
     "/Reclpes/assets/images/user.png": "21835dcba59161877c77529db9176fce1e0608cf",
     "/Reclpes/favicon.ico": "400ba9de22995eb4ee73102a0d1ef9debc55733d",
-    "/Reclpes/index.html": "5f12819560c964db558376c39093dcbde8d9b8dd",
-    "/Reclpes/main-HU4PRQ4V.js": "2ed0ac38582a17fe64b7ef0475ea127aeb88dc57",
+    "/Reclpes/index.html": "6843b89dc95e0da48efbcaff91d8a9b5eba76cb5",
+    "/Reclpes/main-VJRJQEWQ.js": "cdf12edb38845106c091ee1038bbf880363de841",
     "/Reclpes/manifest.webmanifest": "6bcfae6464a81cbca16310f9106e1143d71c65f2",
+    "/Reclpes/media/bookmark (2)-SSP6VL5S.png": "408b963e3b8e9c9fda01ed52ef21a7f55ee33a23",
+    "/Reclpes/media/close-button (1)-DQRBDLWM.png": "ec5ae62b279d4c0ab14b98305f6a911e98170f39",
     "/Reclpes/media/cross-VBCKXK76.png": "da159d8021f8162488222bc0168125a1c5a5a0c6",
     "/Reclpes/media/image-gallery (1)-PVNGOCFT.png": "b1c98e4597ef7094d4adf5c4419ab7c31fcac794",
     "/Reclpes/media/instagram (1)-M5T7SCYQ.png": "80465a1ee3d97569b2804a35c2c93bc5c0076d4f",
