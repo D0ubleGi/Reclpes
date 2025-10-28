@@ -1083,9 +1083,73 @@ font-weight: bold;
 .yuio{
   animation: ro 1s ease-in-out, do 0.4s ease-in-out;
 }
+
+
+.duqu{
+  flex: 0 1 calc(33.333% - 20px); 
+  background-color: #e6b877;
+  border: 2px solid brown;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px;
+  box-sizing: border-box;
+  background-color: #F7E0B7;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 6px;
+}
+.duqu:hover{
+  cursor: pointer;
+  transform: translate(1px,1px);
+}
+.duqu:active{
+  scale: 0.98;
+  transition: 0.1s linear;
+}
+  @media(max-width: 1000px){
+    .duqu {
+    flex: 1 1 35%; 
+  }
+  
+  }
+
+@media (max-width: 550px) {
+  .duqu {
+    flex: 1 1 100%; 
+  }
+}
+.pp223, .pp224, .pp225{
+  font-size: 20px;
+  margin: 8px 0;
+}
+.pp223{
+    margin-top: 20px;
+    font-size: clamp(17px, calc(17px + (20 - 17) * ((100vw - 300px) / (1500 - 300))), 20px);     
+}
+.pp224{
+    font-size: clamp(15px, calc(15px + (18 - 15) * ((100vw - 300px) / (1500 - 300))), 18px);     
+}
+.pp225{
+    font-size: clamp(14px, calc(14px + (17 - 14) * ((100vw - 300px) / (1500 - 300))), 17px);     
+}
+
+.imgtv{
+  width: 56.5%;
+  padding-top: 56.25%;           
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 2px solid brown;
+}
+
 </style>
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-L434TLRX.js" type="module"></script></body>
+<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-IYMK4LOC.js" type="module"></script></body>
 </html>

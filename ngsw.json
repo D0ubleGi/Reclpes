@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1761600511411,
+  "timestamp": 1761658265156,
   "index": "/Reclpes/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Reclpes/favicon.ico",
         "/Reclpes/index.html",
-        "/Reclpes/main-L434TLRX.js",
+        "/Reclpes/main-IYMK4LOC.js",
         "/Reclpes/manifest.webmanifest",
         "/Reclpes/polyfills-5CFQRCPP.js",
         "/Reclpes/styles-5INURTSO.css"
@@ -79,6 +79,7 @@
         "/Reclpes/assets/images/instagram.png",
         "/Reclpes/assets/images/left-arrow (1).png",
         "/Reclpes/assets/images/left-arrow.png",
+        "/Reclpes/assets/images/magnifying-glass.png",
         "/Reclpes/assets/images/messenger (1).png",
         "/Reclpes/assets/images/messenger (2).png",
         "/Reclpes/assets/images/social.png",
@@ -92,7 +93,8 @@
         "/Reclpes/media/close-button (1)-DQRBDLWM.png",
         "/Reclpes/media/cross-VBCKXK76.png",
         "/Reclpes/media/image-gallery (1)-PVNGOCFT.png",
-        "/Reclpes/media/instagram (1)-M5T7SCYQ.png"
+        "/Reclpes/media/instagram (1)-M5T7SCYQ.png",
+        "/Reclpes/media/magnifying-glass-HMAQ7TEF.png"
       ],
       "patterns": []
     }
@@ -150,6 +152,7 @@
     "/Reclpes/assets/images/instagram.png": "6fcd5d1f017522a784094f557aaf2844b1240898",
     "/Reclpes/assets/images/left-arrow (1).png": "85bfc348923b47a015e326f3e84c2cd597f680d9",
     "/Reclpes/assets/images/left-arrow.png": "fd3ce71b54f67cadd60b1cbfa886834f38c8ae86",
+    "/Reclpes/assets/images/magnifying-glass.png": "a6da0ca778b4255d3efe169500121f8b31754fea",
     "/Reclpes/assets/images/messenger (1).png": "222ba057396f4bd373b26d15379fadb8013649a4",
     "/Reclpes/assets/images/messenger (2).png": "6c1dd421860074c9afb997bd1d11893f8a18e598",
     "/Reclpes/assets/images/social.png": "442dad3592ceab23e4d02efb4f46864dd892002a",
@@ -161,13 +164,14 @@
     "/Reclpes/assets/images/trash-can.png": "ccdf3a79ffa4481a75a3f26585163e408f0ef38a",
     "/Reclpes/assets/images/user.png": "21835dcba59161877c77529db9176fce1e0608cf",
     "/Reclpes/favicon.ico": "400ba9de22995eb4ee73102a0d1ef9debc55733d",
-    "/Reclpes/index.html": "cf4b1ac9ee3ed230e212af575faabba3cb47681c",
-    "/Reclpes/main-L434TLRX.js": "5625f3811856d118935de0abaf5344343f292136",
+    "/Reclpes/index.html": "a707a5c438727d753fb5484fd87666d6bb0ea1be",
+    "/Reclpes/main-IYMK4LOC.js": "274776bc0557f7da319e0f1d27035e582c700446",
     "/Reclpes/manifest.webmanifest": "6bcfae6464a81cbca16310f9106e1143d71c65f2",
     "/Reclpes/media/close-button (1)-DQRBDLWM.png": "ec5ae62b279d4c0ab14b98305f6a911e98170f39",
     "/Reclpes/media/cross-VBCKXK76.png": "da159d8021f8162488222bc0168125a1c5a5a0c6",
     "/Reclpes/media/image-gallery (1)-PVNGOCFT.png": "b1c98e4597ef7094d4adf5c4419ab7c31fcac794",
     "/Reclpes/media/instagram (1)-M5T7SCYQ.png": "80465a1ee3d97569b2804a35c2c93bc5c0076d4f",
+    "/Reclpes/media/magnifying-glass-HMAQ7TEF.png": "a6da0ca778b4255d3efe169500121f8b31754fea",
     "/Reclpes/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
     "/Reclpes/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
