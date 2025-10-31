@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1761766781216,
+  "timestamp": 1761914157986,
   "index": "/Reclpes/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/Reclpes/favicon.ico",
         "/Reclpes/index.html",
-        "/Reclpes/main-76F3MVTD.js",
+        "/Reclpes/main-QPZBBGBM.js",
         "/Reclpes/manifest.webmanifest",
         "/Reclpes/polyfills-5CFQRCPP.js",
         "/Reclpes/styles-5INURTSO.css"
@@ -181,8 +181,8 @@
     "/Reclpes/assets/images/trash-can.png": "ccdf3a79ffa4481a75a3f26585163e408f0ef38a",
     "/Reclpes/assets/images/user.png": "21835dcba59161877c77529db9176fce1e0608cf",
     "/Reclpes/favicon.ico": "400ba9de22995eb4ee73102a0d1ef9debc55733d",
-    "/Reclpes/index.html": "b3cfcb1fe99f25cfad0fe67641ab9dfa9315b0d7",
-    "/Reclpes/main-76F3MVTD.js": "856888c22b28164eae935a8ae432ee062f24e3e2",
+    "/Reclpes/index.html": "3a1379ea7d5e7748a72240abe81f2378ed7a1d6b",
+    "/Reclpes/main-QPZBBGBM.js": "695721ea8ee498867d015de4c410560b7b2ba47f",
     "/Reclpes/manifest.webmanifest": "6bcfae6464a81cbca16310f9106e1143d71c65f2",
     "/Reclpes/media/add (1)-K64UAHHF.png": "2c8975a227f29101640a3f5b9efe4e64332a1c17",
     "/Reclpes/media/add-N6SJQPXI.png": "dbb8b9c04b5e4436c39c77897de3bfeafaeb53bd",
