@@ -1205,9 +1205,11 @@ color: #8a612b;
   background-color: #e6b87745;
   border-radius: 8px;
   border: 2px solid #e6b877;
-  font-size: clamp(10.5px, calc(10.5px + (14.5 - 10.5) * ((100vw - 300px) / (1500 - 300))), 14.5px); 
+  font-size: clamp(10px, calc(10px + (14.5 - 10) * ((100vw - 300px) / (1500 - 300))), 14.5px); 
   margin-top: 0;
   margin-bottom: 0;
+  overflow: hidden;           
+  text-overflow: ellipsis; 
 }
 .chasmat:hover{
   scale: 1.01;
@@ -1226,7 +1228,7 @@ color: #8a612b;
   font-size: clamp(10.5px, calc(10.5px + (14.5 - 10.5) * ((100vw - 300px) / (1500 - 300))), 14.5px); 
   border-radius: 12px;
   width: 98.5%;
-  height: clamp(18.5px, calc(18.5px + (24 - 18.5) * ((100vw - 300px) / (1500 - 300))), 24px); 
+  min-height: clamp(18.5px, calc(18.5px + (24 - 18.5) * ((100vw - 300px) / (1500 - 300))), 24px); 
   padding-top: 3px;
   padding-bottom: 3px;
   position: relative;
@@ -1300,5 +1302,5 @@ align-items: center;
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-LR5RHHXP.js" type="module"></script></body>
+<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-WPPX7PIC.js" type="module"></script></body>
 </html>
