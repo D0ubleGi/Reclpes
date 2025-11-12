@@ -1,6 +1,6 @@
 {
-  "name": "cooking",
-  "short_name": "cooking",
+  "name": "Cooking",
+  "short_name": "Cooking",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
